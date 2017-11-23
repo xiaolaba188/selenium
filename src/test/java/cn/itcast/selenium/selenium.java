@@ -23,12 +23,5 @@ public class selenium {
 	driver.findElement(By.id(p.getValue("baiduET"))).sendKeys("nihao");
 	Thread.sleep(1000);
 }
-@Test(groups="name2")
-public void test2(String propertyPath) throws InterruptedException, IOException{
-System.out.print("test2");
-}
-@Test(groups="name3")
-public void test3(String propertyPath) throws InterruptedException, IOException{
-System.out.print("test3");
-}
+
 }
