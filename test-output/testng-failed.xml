@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="Propertypath" value="/tools/chromedriver.exe"/>
+  <test name="Default test(failed)">
+    <groups>
+      <run>
+        <include name="chrome"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="cn.itcast.selenium.selenium">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- cn.itcast.selenium.selenium -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
